@@ -51,6 +51,10 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
 
+    //Internet
+    implementation(libs.retrofit)
+    implementation(libs.converter.scalars)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
