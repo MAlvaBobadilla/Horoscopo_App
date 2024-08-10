@@ -1,4 +1,4 @@
-package com.example.horoscopo_app.data.models
+package com.example.horoscopo_app.domain.models
 
 import com.example.horoscopo_app.R
 
