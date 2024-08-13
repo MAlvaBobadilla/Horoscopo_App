@@ -65,18 +65,18 @@ class HoroscopeFragment : Fragment() {
 
             val data =
                 when(it){
-                    HoroscopeInfo.Acuario -> Acuario
-                    HoroscopeInfo.Aries -> Aries
-                    HoroscopeInfo.Cancer -> Cancer
-                    HoroscopeInfo.Capricornio -> Capricornio
-                    HoroscopeInfo.Geminis -> Geminis
-                    HoroscopeInfo.Leo -> Leo
-                    HoroscopeInfo.Libra -> Libra
-                    HoroscopeInfo.Piscis -> Piscis
-                    HoroscopeInfo.Sagitario -> Sagitario
-                    HoroscopeInfo.Scorpio -> Scorpio
-                    HoroscopeInfo.Tauro -> Tauro
-                    HoroscopeInfo.Virgo -> Virgo
+                    HoroscopeInfo.Acuario -> aquarius
+                    HoroscopeInfo.Aries -> aries
+                    HoroscopeInfo.Cancer -> cancer
+                    HoroscopeInfo.Capricornio -> capricorn
+                    HoroscopeInfo.Geminis -> gemini
+                    HoroscopeInfo.Leo -> leo
+                    HoroscopeInfo.Libra -> libra
+                    HoroscopeInfo.Piscis -> pisces
+                    HoroscopeInfo.Sagitario -> sagittarius
+                    HoroscopeInfo.Scorpio -> scorpio
+                    HoroscopeInfo.Tauro -> taurus
+                    HoroscopeInfo.Virgo -> virgo
                 }
 
             findNavController().navigate(
